@@ -1,7 +1,11 @@
 const obj = require('../hello');
-const assert = require('assert').strict;
+// const assert = require('assert').strict;
+const assert = require('chai').assert;
 
-// test #1
-assert.equal(obj.sayHello('Bob'), 'hello Bob');
-// assert.equal(obj.sayHello('Carol'), 'hello Bob');
-console.log(obj);
+describe('sayHello function tests', () => {
+
+  it('returns "hello Bob" given the argument "Bob"', () => {
+    assert.equal(obj.sayHello('Bob'), 'hello Bob');
+  });
+
+});
