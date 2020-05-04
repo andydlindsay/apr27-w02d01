@@ -1,0 +1,32 @@
+{
+  "name": "apr27-w02d01",
+  "version": "1.0.0",
+  "description": "Lecture notes and example code for Week 2 Day 1 lecture",
+  "main": "hello.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andydlindsay/apr27-w02d01.git"
+  },
+  "keywords": [
+    "testing",
+    "mocha",
+    "chai",
+    "assertion",
+    "fun"
+  ],
+  "author": "Andy Lindsay <andydlindsay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andydlindsay/apr27-w02d01/issues"
+  },
+  "homepage": "https://github.com/andydlindsay/apr27-w02d01#readme",
+  "devDependencies": {
+    "mocha": "^7.1.2"
+  }
+}
